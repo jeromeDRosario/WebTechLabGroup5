@@ -1,0 +1,6 @@
+- Edited a typo on <title>: "Cultue" to "Culture" (line 5)
+- Edited a typo on <h1>: "Cultue" to "Culture" (line 14)
+- Added a <li> for the "About US" section to the <nav> element (line 23)
+- Added a new story: "The Last Mambabatok of the Kalingan Tribe" by Alissa Castro (lines 214 through 222)
+- Added a new story: "Insight from an Outsider" by Alissa Castro (lines 229 through 235)
+- Added a new subsection "About Us" (line 244 through 297)
