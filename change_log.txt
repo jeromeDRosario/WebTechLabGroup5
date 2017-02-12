@@ -4,3 +4,7 @@
 - Added a new story: "The Last Mambabatok of the Kalingan Tribe" by Alissa Castro (lines 214 through 222)
 - Added a new story: "Insight from an Outsider" by Alissa Castro (lines 229 through 235)
 - Added a new subsection "About Us" (line 244 through 297)
+- Added whong-ad picture in her story
+- Arrange the pictures for Festivals and Landmarks
+- Added pictures on about us. 
+- Change the <li> to <div> for arranging the Festivals and Landmarks
