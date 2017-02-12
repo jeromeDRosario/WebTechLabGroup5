@@ -11,7 +11,7 @@ body{
 #page-wrapper{
 	margin:0 auto;
 	padding-top:20px;
-	width:683px;
+	width:900px;
 	position:relative;
 	background-color:#333;
 }
@@ -78,6 +78,13 @@ h5{
 	float:left;
 }
 
+.fang-od{
+	height: 240px;
+	width: 200px;
+	float: left;
+	margin: 5px;
+}
+
 .content-image figcaption{
 	position:relative;
 	bottom:0px;
@@ -118,7 +125,7 @@ h5{
 
 .main-content{
 	min-height:390px;
-	width:640px;
+	width:850px;
 	margin:0 auto;
 	margin-top:-16px;
 	background-color:#fdfdfd;
@@ -194,4 +201,29 @@ footer span{
 	font-size:1.2em;
 	padding:10px;
 	color:#767676;
+}
+
+#culture div{
+	margin:0;
+	color:#767676;
+	font-family:Tahoma;
+	font-size:1.10em;
+	line-height:160%;
+}
+
+.contentleft{
+	float: left;
+	width: 49%;
+}
+.imageleft{
+	float: left;
+	width: 49%;
+}
+.contentright{
+	float: right;
+	width: 49%;
+}
+.imageright{
+	float: right;
+	width: 49%;	
 }
