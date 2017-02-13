@@ -4,8 +4,22 @@ body{
 	font-size:62.5%; 
 	margin:0;
 	padding:0;
-	background-color:#000;
-	font-family:'lucida grande', arial, tahoma, sans-serif;
+	background-color:#3c3c3c;
+	font-family:arial, tahoma, sans-serif;
+}
+
+@font-face {
+	font-family: 'AmaticSC';
+	src:url('fonts/AmaticSC.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src:url('fonts/JosefinSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 #page-wrapper{
@@ -13,59 +27,65 @@ body{
 	padding-top:20px;
 	width:900px;
 	position:relative;
-	background-color:#333;
+	background-color:#626e60;
 }
 
+/* ----headers---- */
 header{
 	margin:0 auto;
-	width:640px;
-	height:250px;
-	background:transparent url('images/banner.jpg') top left no-repeat;
+	padding-top:15px;
+	margin-bottom:-16px;
+	width:850px;
+	height:255px;
+	background:transparent url('images/banner.png') top left no-repeat;
 }
-
+h1, h2, h3, h4, h5{
+	font-family:"AmaticSC";
+}
 h1{
-	position:relative;
-	font-family:Times;
-	font-size:30px;
+	position:absolute;
+	font-size:60px;
 	color:#fff;
-	top:5px;
-	left:5px;
+	top:-35px;
+	left:35px;
+	text-shadow:#000 0px 1px 0px;
 }
-
 h2{
 	position:relative;
-	font-family:Calibri;
-	font-size:20px;
+	font-size:30px;
 	color:#fff;
-	top:165px;
-	left:35px;
+	top:175px;
+	left:250px;
+	text-shadow:#000 0px 1px 0px;
 }
-
 h3{
 	margin:0;
 	margin-bottom:5px;
 	padding: 0;
-	font-weight:normal;
-	color:#6A7919;
-	font-size:2.5em;
-	font-family:Times;
+	color:#af473c;
+	font-size:3.5em;
 }
-
 h4{
 	margin:0;
-	font-size:1.5em;
-	font-weight:normal;
-	color:#94C258;
+	font-size:2.5em;
+	color:#945d60;
 }
-
 h5{
 	margin:0;
-	font-size:1em;
-	font-weight:normal;
-	color:#94C258;
+	font-size:1.7em;
+	color:#945d60;
+}
+p, li{
+	margin:0;
+	color:#000;
+	font-family:"JosefinSans";
+	font-size:1.3em;
+	line-height:170%;
 }
 
+/* ----figure---- */
 .content-image{
+	margin:0;
 	box-shadow:0px 0px 10px #dfdfdf;
 	padding:4px;
 	float:left;
@@ -73,18 +93,9 @@ h5{
 	margin-bottom:20px;
 	position:relative;
 }
-
 .content-image img{
 	float:left;
 }
-
-.fang-od{
-	height: 240px;
-	width: 200px;
-	float: left;
-	margin: 5px;
-}
-
 .content-image figcaption{
 	position:relative;
 	bottom:0px;
@@ -95,7 +106,7 @@ h5{
 
 /* ----navigation---- */
 .navigation{
-	margin:0 20px;
+	margin:0 250px;
 	height:29px;
 	padding:5px 0;
 	margin-bottom:12px;
@@ -111,10 +122,10 @@ h5{
 	text-transform:uppercase;
 }
 .navigation ul li a:link, .navigation ul li a:active, .navigation ul li a:visited{
-	color:#767676;	
+	color:#fff;	
 	padding:10px 7px 10px 7px;
 	font-size:1em;
-	font-family:'lucida grande', arial, sans-serif;
+	font-family:"JosefinSans", arial, sans-serif;
 	font-weight:bold;
 	text-decoration:none;
 }
@@ -127,8 +138,11 @@ h5{
 	min-height:390px;
 	width:850px;
 	margin:0 auto;
-	margin-top:-16px;
+	margin-top:-7px;
 	background-color:#fdfdfd;
+}
+.break-main-content{
+	clear: both;
 }
 
 /* ----sections---- */
@@ -145,52 +159,128 @@ h5{
 #aboutus{
 	margin-bottom:10px;
 }
-
-#home p, #stories p{
-	margin:0;
-	color:#767676;
-	font-family:Tahoma;
-	font-size:1.2em;
-	line-height:170%;
-}
-#home .participation, #home .requirements{
+#home .participation, #home .requirements, .provinces, .ethnic-groups, .languages, .economy{
 	margin:5px;
 	margin-left:20px;
 }
 
-#about li, #culture li{
-	margin:0;
-	color:#767676;
-	font-family:Tahoma;
-	font-size:1.2em;
-	line-height:170%;
+#about .facts, .provinces ul, .ethnic-groups ul, .languages ul, .economy ul{
+	margin-top:-3px;
 }
 
+.provinces, .ethnic-groups, .languages, .economy{
+	margin-top:-10px;
+}
+
+.floatLeft{ 	
+	float: left;
+	width: 49%;
+}
+.floatRight{
+	float: right;
+	width: 49%;
+}
+
+.festivals h4, .landmarks h4{
+	margin-bottom:10px;
+}
+
+/* ----stories---- */
 .story{
 	margin-left:15px;
 	margin-bottom:50px;
 }
-
 .story p{
 	padding-bottom:5px;
 }
-
+.fang-od{
+	height: 250px;
+	width: 200px;
+	margin-top:10px;
+	margin-bottom:20px;
+	margin-left:10px;
+	box-shadow:0px 0px 10px #dfdfdf;
+	padding:4px;
+	float:left;
+	border:1px solid #d6d6d6;
+	position:relative;
+}
+.fang-od img{
+	float:left;
+}
+.fang-od figcaption{
+	position:relative;
+	bottom:-2px;
+	color:LightSkyBlue;
+}
 .story .author{
 	margin-top:8px;
 	display:block;
 	font-size:13px;
 }
 
+/* ----aboutus---- */
 .team .member img{
 	width:138px;
 	height:138px;
-	border:2px #dfdfdf solid;
+	border:3px #333 solid;
 	border-radius:50%;
+}
+.team{
+	margin-left:3.2%;
+}
+.team p{
+	text-align:center;
+}
+.team .name{
+	margin-top:-10px;
+	font-weight:bold;
+	font-size:1.5em;
+	color:#000;
+}
+.team .role{
+	margin-top:-7px;
+	font-style:italic;
+	font-size:1.5em;
+	margin-bottom:3px;
+}
+.team .desc{
+	margin-top:5px;
+	font-size:1.3em;
+}
+.team blockquote{
+	width:230px;
+	margin-left:-2px;
+}
+.team blockquote cite{
+	margin-left:25%;
+}
+
+.columns{
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+	margin-right
+}
+.team2{
+	width:250px;
+	float:left;
+	margin-right:50px;
+	margin-left:100px;
+}
+.team1{
+	width:200px;
+	float:left;
+	margin-right:30px;
+}
+.last{
+	margin-left:0;
+	margin-right:0px;
 }
 
 footer{
 	margin:0 auto;
-	width:641px;
+	width:850px;
 	height:39px;
 }
 
@@ -201,29 +291,4 @@ footer span{
 	font-size:1.2em;
 	padding:10px;
 	color:#767676;
-}
-
-#culture div{
-	margin:0;
-	color:#767676;
-	font-family:Tahoma;
-	font-size:1.10em;
-	line-height:160%;
-}
-
-.contentleft{
-	float: left;
-	width: 49%;
-}
-.imageleft{
-	float: left;
-	width: 49%;
-}
-.contentright{
-	float: right;
-	width: 49%;
-}
-.imageright{
-	float: right;
-	width: 49%;	
 }
