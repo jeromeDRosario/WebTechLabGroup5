@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+body{
+	padding: 0;
+	margin:0;
+	background-color: white;
+}
+@font-face {
+	font-family: 'AmaticSC';
+	src:url('fonts/AmaticSC.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src:url('fonts/JosefinSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#page-wrapper{
+	width: 100%;
+	margin: 0 auto;
+	background-color: grey;
+}
+.intro{
+	background-image: url("cordillera.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	margin:0;
+	padding-top: 80px;
+	width: 100%;
+	height: 300px;
+}
+
+#banner{
+	text-align: center;
+}
+
+h1{
+	font-family: AmaticSC;
+	font-size: 100px;
+	color: white;
+	margin:0;
+	padding: 0;
+}
+
+h2{
+	font-family: JoseFinSans;
+	font-size: 35px;
+	margin: 0;
+	padding: 0;
+}
+
+h3{
+	font-family: JoseFinSans;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white
+}
+
+h4{
+	font-family: JoseFinSans;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+
+}
+
+h5{
+	font-family: JoseFinSans;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+p, li{
+	font-family: JoseFinSans;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+.navigation{
+	margin:0;
+	height:29px;
+	padding:5px 0;
+	margin-bottom:12px;
+	text-align: center;
+}
+.navigation ul{
+	margin:0;
+	padding:7px;
+	height:29px;
+}
+.navigation ul li{
+	list-style:none;
+	display:inline;
+	text-transform:uppercase;
+}
+.navigation ul li a:link, .navigation ul li a:active, .navigation ul li a:visited{
+	color:#fff;	
+	padding:10px 7px 10px 7px;
+	font-size:25px;
+	font-family:"JosefinSans", arial, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+}
+.navigation ul li a:hover{
+	background-color:#000000;
+	color:#fdfdfd;
+}
+
+#home{
+	width: 50.2%;
+	position: relative;
+	background-color: white;
+	left: 0%;
+	float: left;
+	height: 395px;
+}
+
+#about{
+	width: 49.5%;
+	position: relative;
+	right: 0%;
+	background-color: white;
+	float: left;
+	border-width: 0 0 0 3px;
+	border-style: solid;
+	border-color: black;
+	height: 395px;
+}
+
+.facts{
+	width: auto;
+}
+
+.provinces{
+	background-color: white;
+	position: relative;
+	right: 0%;
+	float: left;
+	width: 19%;
+	height: 220px;
+
+}
+
+.ethnic-groups{
+	background-color: white;
+	position: relative;
+	width: 24%;
+	float: left;
+	height: 220px;
+
+}
+
+.languages{
+	background-color: white;
+	position: relative;
+	width: 31%;
+	float: left;
+	height: 220px;
+}
+
+.economy{
+	background-color: white;
+	position: relative;
+	width: 26%;
+	float: left;
+	height: 220px;
+}
+
+#culture{
+	width: 100%;
+	position: relative;
+	top: 0%;
+	left: 0%;
+	background-color: grey;
+	float: left;
+}
+
+#stories{
+	width: 100%;
+	position: relative;
+	top: 0%;
+	left: 0%;
+	background-color: white;
+	float: left;
+}
+
+#duane{
+	position: relative;
+	width: 49.1%;
+	background-color: white;
+	float: left;
+	padding: 1%;
+}
+
+#mambabatok{
+	position: relative;
+	width: 46.6%;
+	background-color: white;
+	float: left;
+	border-width: 0 0 0 3px;
+	border-style: solid;
+	padding: 1%;
+}
+
+#canao{
+	position: relative;
+	width: 16.1%;
+	background-color: white;
+	float: left;
+	padding: 1% 0 0 1%;
+	border-width: 3px 0 0 0;
+	border-style: solid;
+}
+
+#outsider{
+	position: relative;
+	width: 62.1%;
+	background-color: white;
+		border-width: 3px 0 0 3px;
+	border-style: solid;
+	float: left;
+	padding: 1% 0 0 1%;
+
+}
+
+#bahag{
+	position: relative;
+	width: 18.3%;
+	background-color: white;
+		border-width: 3px 0 0 3px;
+	border-style: solid;
+	float: left;
+	padding: 1% 0 0 1%;
+}
+
+.fang-od{
+	height: 250px;
+	width: 200px;
+	margin-top:10px;
+	margin-bottom:20px;
+	margin-left:10px;
+	box-shadow:0px 0px 10px #dfdfdf;
+	padding:4px;
+	float:left;
+	border:1px solid #d6d6d6;
+	position:relative;
+}
+
+.fang-od img{
+	float:left;
+}
+
+.fang-od figcaption{
+	position:relative;
+	bottom:-2px;
+	color:LightSkyBlue;
+}
+
+.story .author{
+	margin-top:8px;
+	display:block;
+	font-size:13px;
+}
+
+#aboutus{
+	width: 100%;
+	position: relative;
+	background-color: white;
+	float: left;
+}
