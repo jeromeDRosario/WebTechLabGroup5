@@ -37,7 +37,7 @@ header{
 	margin-bottom:-16px;
 	width:850px;
 	height:255px;
-	background:transparent url('images/banner.png') top left no-repeat;
+	background:url('images/banner.png') top left no-repeat;
 }
 h1, h2, h3, h4, h5{
 	font-family:"AmaticSC";
