@@ -181,9 +181,20 @@ p, li{
 	position: relative;
 	top: 0%;
 	left: 0%;
-	background-color: grey;
+	background-color:#a6a6a6;
 	float: left;
 }
+
+.description{
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.contentpicture{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
 
 #stories{
 	width: 100%;
@@ -277,4 +288,33 @@ p, li{
 	position: relative;
 	background-color: white;
 	float: left;
+}
+
+.team1{
+	text-align: center;
+	margin: auto;
+}
+
+.team2{
+	float: left;
+	width: 49%;
+	margin: auto;
+	text-align: center;
+}
+
+.team3{
+	float: right;
+	width: 49%;
+	margin: auto;
+	text-align: center;
+}
+
+.team4{
+	margin: auto;
+	text-align: center;
+}
+
+.team5{
+	margin: auto;
+	text-align: center;
 }
