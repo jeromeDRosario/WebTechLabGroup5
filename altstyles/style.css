@@ -318,3 +318,11 @@ p, li{
 	margin: auto;
 	text-align: center;
 }
+
+footer{
+	font-family: JoseFinSans;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
